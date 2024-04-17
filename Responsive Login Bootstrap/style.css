@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #ececec;
+}
+
+/* codigo  */
+
+.featured_image img{
+    width: 250px;
+}
+
+/* login center  */
+.box-area{
+    width: 930px; 
+}
+
+.row{
+    border-radius: 10px;
+}
+
+.col-md-6{
+    border-radius: 10px;
+}
+
+
+/* right box  */
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+
+/* custom placeholder */
+
+::placeholder{
+    font-size: 16px;
+}
+
+/* Form small screens */
+
+@media only screen and (max-width: 768px){
+    .box-area{
+        margin: 0 10px;
+    }
+
+    .left-box{
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box{
+        padding: 20px;
+    }
+}
